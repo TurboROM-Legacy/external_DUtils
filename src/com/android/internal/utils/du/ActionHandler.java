@@ -348,7 +348,7 @@ public class ActionHandler {
                 }
             }
         }
-/*
+
         private static void fireIntentAfterKeyguard(Intent intent) {
             IStatusBarService service = getStatusBarService();
             if (service != null) {
@@ -358,7 +358,6 @@ public class ActionHandler {
                 }
             }
         }
-*/
     }
 
     public static void toggleRecentApps() {
@@ -372,7 +371,7 @@ public class ActionHandler {
     public static void preloadRecentApps() {
         StatusBarHelper.preloadRecentApps();
     }
-/*
+
     public static void performTaskFromKeyguard(Context ctx, String action) {
         // null: throw it out
         if (action == null) {
@@ -389,7 +388,7 @@ public class ActionHandler {
             performTask(ctx, action);
         }
     }
-*/
+
     public static void performTask(Context context, String action) {
         // null: throw it out
         if (action == null) {
